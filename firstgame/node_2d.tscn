@@ -3,3 +3,6 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(3, -1)
+
+[node name="SubViewport" type="SubViewport" parent="CharacterBody2D"]
